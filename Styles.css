@@ -58,6 +58,7 @@ header nav{
     height: auto;
     padding-left: 300px; 
     padding-right: 300px;
+    padding-bottom: 100px;
 
     }
 
@@ -320,18 +321,37 @@ form {
 @media only screen and (max-width: 776px) {
   
 
-    .nav-item {
+    .nav-item,.grid-container,.text {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         
+        
+
     }
-    .grid-container{
+    body,header,#into,.section-1,.grid-container,.text,.section-2,.section-3,.section-4.text,.icon,.sponsor {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        
+        justify-content: center;
+        align-items: center;
+        align-self: center;
 
     }
+
+
+    .small-text{
+        
+
+    }
+    .section-3{
+
+        padding-left: 300px;
+    }
+
+
+    
     
 
 }
