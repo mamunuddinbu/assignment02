@@ -22,9 +22,9 @@ body{
 header{
     background: rgba(255, 144, 14, 0.1);
     height: auto;
-    width: auto;
+    width: 100%;
     justify-content: center;
-    
+    padding-top: 100px;
     padding-bottom: 100px;
 
 }
@@ -41,6 +41,7 @@ header nav{
     font-size: 18px;
     color: #424242;
 }
+
 
 .heading{
     font-weight: 700;
@@ -116,7 +117,7 @@ justify-content: center;
 height: auto;
 margin-top: 85px;
 margin-top: 100px;
-margin-top: 100px;
+
 
 
 
@@ -152,9 +153,16 @@ margin-top: 100px;
 
 /* ------222222---section-2-22222222---*/
 
+.section-2{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .text{
     padding: 25px;
-    width: 50vh;
+    width: 80vh;
 }
 
 .extra{
@@ -170,21 +178,31 @@ margin-top: 100px;
     color: #727272;
 }
 
-
 .text-item{
 
-    padding: 10px;    
-    box-shadow: 5px 5px 10px black, -5px 5px 10px black, 5px -5px 10px black, -5px -5px 10px black;
+    padding: 5px;    
+    box-shadow: .3px .3px .3px rgb(134, 132, 132), -5px 5px 10px rgb(109, 108, 108), 5px -5px 10px rgb(130, 127, 127), -5px -5px 10px rgb(120, 117, 117);
     
-    gap: 15px;
+    margin-top:  15px;
     
 }
 
 
 #arc{
     height: auto;
-    width: 50vh;
+    width: 80vh;
 }
+
+.overlay-button {
+    padding: 50px;
+    color: aliceblue;
+    background: #FF900E;
+    border: none;
+    border-radius: 8px;
+    position: absolute;
+    align-self: flex-end;
+    order: 1;
+  }
 
 /* 3333333333 section 333333333333333333333 */
 
@@ -244,3 +262,78 @@ filter: grayscale(100%);
 footer{
     margin-bottom: 110px;
 }
+
+
+.logo:hover {
+    background-color: red;
+  }
+
+
+
+
+
+form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background: #FF900E;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+
+
+
+
+
+  /* Responsive */
+
+@media only screen and (max-width: 776px) {
+  
+
+    .nav-item {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
+    .grid-container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+    
+
+}
+
+/* Responsive */
