@@ -106,16 +106,18 @@ header nav{
 styles for main section
 ----------------------- */
 
-
+/* Section-1 */
 
 .section-1{
+margin-top: 130px;
 display: flex;
 align-items: center;
 justify-content: center;
 height: auto;
-margin-top: 85px 100px 50px 100px;
-padding-left: 300px; 
-padding-right: 300px;
+margin-top: 85px;
+margin-top: 100px;
+margin-top: 100px;
+
 
 
 }
@@ -132,9 +134,113 @@ padding-right: 300px;
     padding: 20px;
   }
 
+  #gray-part{
+    color:#727272
+ }
  
+ #orange-part{
+
+    color: #FF900E;
+ }
   
 
+ .title{
+    font-weight: 700;
+    font-size: 45px
+}
 
 
+/* ------222222---section-2-22222222---*/
 
+.text{
+    padding: 25px;
+    width: 50vh;
+}
+
+.extra{
+    /* padding-left: 40px; */
+    border-left: 5px solid #FF900E;
+    font-weight: 700;
+    font-size: 45px
+}
+
+.text p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+
+.text-item{
+
+    padding: 10px;    
+    box-shadow: 5px 5px 10px black, -5px 5px 10px black, 5px -5px 10px black, -5px -5px 10px black;
+    
+    gap: 15px;
+    
+}
+
+
+#arc{
+    height: auto;
+    width: 50vh;
+}
+
+/* 3333333333 section 333333333333333333333 */
+
+.section-3{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.icon{
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+
+/* -----section-4-44444444444444444444444 */
+
+.section-4{
+
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.sponsor img{
+padding: 40px;
+filter: grayscale(100%);
+}
+
+.small-text{
+
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.footer-div{
+    padding: 40px 210px;
+    background: #FFF4E7;
+}
+
+footer{
+    margin-bottom: 110px;
+}
